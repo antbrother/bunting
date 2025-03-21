@@ -1,0 +1,26 @@
+/* Custom styles for the Week view cells */
+.custom-week-cell {
+    height: 100px; /* Adjust the height as needed */
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+  
+/* Target the header cells in week view */
+.rbc-header {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: flex-start; /* Align content to the top */
+    padding-top: 5px; /* Add some spacing from the top */
+}
+  
+  /* Optional: Adjust font size for better visibility */
+.rbc-header span {
+    font-size: 1rem; /* Customize font size */
+}
+
+.rbc-month-row {
+    display: inline-table !important;
+    flex: 0 0 0 !important;
+    min-height: 80px !important;
+  }
